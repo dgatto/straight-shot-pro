@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/straight-shot-pro/static/css/main.2cce8147.chunk.css",
+    "main.js": "/straight-shot-pro/static/js/main.ff13fc7f.chunk.js",
+    "main.js.map": "/straight-shot-pro/static/js/main.ff13fc7f.chunk.js.map",
+    "runtime~main.js": "/straight-shot-pro/static/js/runtime~main.983e210b.js",
+    "runtime~main.js.map": "/straight-shot-pro/static/js/runtime~main.983e210b.js.map",
+    "static/js/2.b41502e9.chunk.js": "/straight-shot-pro/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/straight-shot-pro/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/straight-shot-pro/index.html",
+    "precache-manifest.3bf4e50b8218bc924e0f7ee448430b68.js": "/straight-shot-pro/precache-manifest.3bf4e50b8218bc924e0f7ee448430b68.js",
+    "service-worker.js": "/straight-shot-pro/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/straight-shot-pro/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/straight-shot-pro/static/media/logo.5d5d9eef.svg"
+  }
+}
