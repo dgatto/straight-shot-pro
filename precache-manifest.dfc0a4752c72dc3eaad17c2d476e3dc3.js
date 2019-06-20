@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8fc2879a8a5bf8ffb94ead2ebcd531ea",
+    "revision": "ac864176e670ff0dfd2121b9df0e6bce",
     "url": "/straight-shot-pro.github.io/index.html"
   },
   {
-    "revision": "2c6b0cafca03efe5d370",
-    "url": "/straight-shot-pro.github.io/static/css/main.2cce8147.chunk.css"
+    "revision": "1757fd22cd470e9e39b3",
+    "url": "/straight-shot-pro.github.io/static/css/main.3251c523.chunk.css"
   },
   {
-    "revision": "2e0129063922e3bb197a",
-    "url": "/straight-shot-pro.github.io/static/js/2.b41502e9.chunk.js"
+    "revision": "8bc7b6577c92aeb0d93d",
+    "url": "/straight-shot-pro.github.io/static/js/2.1cc1ac11.chunk.js"
   },
   {
-    "revision": "2c6b0cafca03efe5d370",
-    "url": "/straight-shot-pro.github.io/static/js/main.a79a5150.chunk.js"
+    "revision": "1757fd22cd470e9e39b3",
+    "url": "/straight-shot-pro.github.io/static/js/main.ada4101b.chunk.js"
   },
   {
     "revision": "600767378b7cf83c1be7",
