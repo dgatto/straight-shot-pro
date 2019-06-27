@@ -1,0 +1,12 @@
+html, body {
+    background-color: solid #F5F5F5;
+}
+
+#nav {
+    float: right;
+}
+
+.section-one {
+    background-color: darkred;
+    height: 100vh; 
+}
