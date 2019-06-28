@@ -10,3 +10,8 @@ html, body {
     background-color: darkred;
     height: 100vh; 
 }
+
+.section-two {
+    background-color: darkgray;
+    height: 100vh;
+}

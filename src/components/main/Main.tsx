@@ -6,11 +6,22 @@ import { Contact } from '../contact/Contact';
 import { Gallery } from '../gallery/Gallery';
 import { Testimonials } from '../testimonials/Testimonials';
 
-export class Main extends Component {
+interface PassedProps {
+  width: number;
+  height: number;
+}
+
+type Props = PassedProps;
+
+export class Main extends React.Component<Props> {
   render() {
     return (
         <Switch>
-            <Route exact path='/home' component={Home}></Route>
+            <Route 
+              exact path='/home'
+              render={(props) => <Home {...props} height={this.props.height} width={this.props.width} />}
+            />
+            
             <Route exact path='/about' component={About}></Route>
             <Route exact path='/contact' component={Contact}></Route>
             <Route exact path='/gallery' component={Gallery}></Route>
@@ -19,6 +30,13 @@ export class Main extends Component {
         </Switch>
     );
   }
+
+
+  componentWillUpdate(nextProps: Props) {
+    return this.props !== nextProps;
+  }
+
+
 }
 
 export default Main;
