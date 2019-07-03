@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/straight-shot-pro.github.io/precache-manifest.dfc0a4752c72dc3eaad17c2d476e3dc3.js"
+  "/straight-shot-pro.github.io/precache-manifest.7bffd5f1ad3d6f4c14a6bcc4e979fb52.js"
 );
 
 self.addEventListener('message', (event) => {
