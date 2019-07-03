@@ -12,8 +12,6 @@ export class Navigation extends Component {
   }
 
   render() {
-
-    let url = window.URL;
     return (
       <Navbar id="nav" bg="light" expand="lg">
       <Navbar.Collapse id="nav-dropdown">

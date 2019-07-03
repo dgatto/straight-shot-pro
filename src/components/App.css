@@ -8,10 +8,33 @@ html, body {
 
 .section-one {
     background-color: darkred;
-    height: 100vh; 
+    height: 100vh;
+}
+
+.section-one .title {
+    display: flex;
+    height: inherit;
+}
+
+.section-one .title p {
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    margin: auto;
 }
 
 .section-two {
     background-color: darkgray;
     height: 100vh;
+    display: flex;
+}
+
+.carousel {
+    padding: 0 10% 0 10%;
+    margin: auto;
+}
+
+.carousel .carousel-item img {
+    width: 50px;
+    height: 50px;
 }

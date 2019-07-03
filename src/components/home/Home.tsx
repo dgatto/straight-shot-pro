@@ -1,4 +1,4 @@
-import React, { Component, PureComponent } from 'react';
+import React from 'react';
 import { TopLevel } from '../home/TopLevel';
 import { BottomLevel } from '../home/BottomLevel';
 
@@ -15,7 +15,6 @@ export class Home extends React.Component<Props> {
   }
 
   render() {
-    
     return (
       <div>
         <TopLevel height={this.props.height} width={this.props.width}/>
