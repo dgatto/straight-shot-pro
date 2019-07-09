@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Navigation } from "../components/navigation/Navigation";
 import { Main } from "../components/main/Main";
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Redirect } from 'react-router-dom';
 
 export class App extends React.Component {
   state = {
@@ -34,6 +34,7 @@ export class App extends React.Component {
         <BrowserRouter>
           <Navigation url={this.state.url}/>
           <Main width={this.state.width} height={this.state.height}/>
+          <Redirect to='/home'/>
         </BrowserRouter>
       </div>
     );
