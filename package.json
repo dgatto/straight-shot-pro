@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dgatto.github.io/straight-shot-pro.github.io",
+  "homepage": "https://donaldgatto.com/home",
   "name": "straight-shot-pro",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,7 @@
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.0.1",
     "typescript": "^3.5.2"
   },
   "scripts": {
