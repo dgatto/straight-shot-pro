@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/straight-shot-pro.github.io/static/css/main.bd9d0b30.chunk.css",
-    "main.js": "/straight-shot-pro.github.io/static/js/main.43fcd940.chunk.js",
-    "main.js.map": "/straight-shot-pro.github.io/static/js/main.43fcd940.chunk.js.map",
-    "runtime~main.js": "/straight-shot-pro.github.io/static/js/runtime~main.1e74bb99.js",
-    "runtime~main.js.map": "/straight-shot-pro.github.io/static/js/runtime~main.1e74bb99.js.map",
-    "static/js/2.528046e4.chunk.js": "/straight-shot-pro.github.io/static/js/2.528046e4.chunk.js",
-    "static/js/2.528046e4.chunk.js.map": "/straight-shot-pro.github.io/static/js/2.528046e4.chunk.js.map",
-    "index.html": "/straight-shot-pro.github.io/index.html",
-    "precache-manifest.36a217fc0e07e8664e23a1ba4c3c4679.js": "/straight-shot-pro.github.io/precache-manifest.36a217fc0e07e8664e23a1ba4c3c4679.js",
-    "service-worker.js": "/straight-shot-pro.github.io/service-worker.js",
-    "static/css/main.bd9d0b30.chunk.css.map": "/straight-shot-pro.github.io/static/css/main.bd9d0b30.chunk.css.map",
-    "static/media/logo.svg": "/straight-shot-pro.github.io/static/media/logo.ee7cd8ed.svg"
+    "main.css": "/home/static/css/main.bd9d0b30.chunk.css",
+    "main.js": "/home/static/js/main.f2b8cf17.chunk.js",
+    "main.js.map": "/home/static/js/main.f2b8cf17.chunk.js.map",
+    "runtime~main.js": "/home/static/js/runtime~main.0990ee84.js",
+    "runtime~main.js.map": "/home/static/js/runtime~main.0990ee84.js.map",
+    "static/js/2.528046e4.chunk.js": "/home/static/js/2.528046e4.chunk.js",
+    "static/js/2.528046e4.chunk.js.map": "/home/static/js/2.528046e4.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.fd20cae1306a8eccc34f5d188d73526c.js": "/home/precache-manifest.fd20cae1306a8eccc34f5d188d73526c.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/main.bd9d0b30.chunk.css.map": "/home/static/css/main.bd9d0b30.chunk.css.map",
+    "static/media/logo.svg": "/home/static/media/logo.ee7cd8ed.svg"
   }
 }
