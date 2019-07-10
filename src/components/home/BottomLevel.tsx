@@ -21,26 +21,24 @@ export class BottomLevel extends React.Component<Props> {
             <div id="section-two" className='home section-two'>
                 <Container fluid={true}>
                     <Row>
-                        <Col>
+                        <Col xs={2}>
+                            {/* <div className="home-button button-learn-more"> */}
+                                <Button variant="outline-danger">Learn more</Button>
+                            {/* </div> */}
+                        </Col>
+                        <Col xs={8}>
                             <div id="carousel">
                                 <ControlledCarousel/>
                             </div>
                         </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <Button variant="outline-danger">Learn more</Button>
-                        </Col>
-                        <Col>
-                            <p>|</p>
-                        </Col>
-                        <Col>
-                            <Button variant="outline-danger">Schedule a Shoot</Button>
+                        <Col xs={2}>
+                            {/* <div className="home-button button-schedule"> */}
+                                <Button variant="outline-danger">Schedule a Shoot</Button>
+                            {/* </div> */}
+
                         </Col>
                     </Row>
                 </Container>
-
-
             </div>
         );
     }

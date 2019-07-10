@@ -1,6 +1,20 @@
 html, body {
     background-color: solid #F5F5F5;
-    overflow-x: hidden;
+}
+
+/* override bootstraps -15px on either side, causing an x-overflow */
+div.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+div.col {
+    padding: 0px !important;
+}
+
+.navigation-bar {
+    right: 0;
+    position: absolute;
+    z-index: 2000;
 }
 
 #nav {
@@ -10,6 +24,7 @@ html, body {
 .section-one {
     background-color: darkred;
     height: 100vh;
+    border-bottom: 1px solid gray;
 }
 
 .section-one .title {
@@ -25,16 +40,29 @@ html, body {
 }
 
 .section-two {
-    background-color: darkgray;
+    background-color: lightgray;
     height: 100vh;
     display: flex;
+}
+
+.section-two .col-2 {
+    display: flex;
+}
+
+.section-two .btn {
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    color: darkred;
+    border-radius: 0px;
+    border: 2px solid darkred;
 }
 
 #carousel {
     display: flex;
     margin: auto;
-    width: 80vh;
-    height: 80vh;
+    width: 100vh;
+    height: 100vh;
 }
 
 #carousel .carousel-slider {
@@ -43,9 +71,4 @@ html, body {
 
 .container-fluid {
     padding: 0 !important;
-}
-
-.navigation-bar {
-    position: absolute;
-    z-index: 2000;
 }

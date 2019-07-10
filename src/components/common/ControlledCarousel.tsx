@@ -12,7 +12,7 @@ class ControlledCarousel extends React.Component {
                 interval={4000}
                 transitionTime={700}
                 infiniteLoop={true}
-                autoPlay={true}>
+                autoPlay={false}>
                 <div>
                     <img src="https://previews.dropbox.com/p/thumb/AAfxlla01E3cQvu8fdVfk4WQuU2jL-rD_f117iy5rexskWies0eb5T-fguMLTpj0uQqv5rePVKBcYqZ5Lom12EenYjZkBsmzkVDynOWYHm-a1NkOR75sL5U6xxsKFEPhx-DZ4m9-HAR8no-Lrp5co1siO3ExSdD10KarTecSB0gIlpLyvRncjFA8eMbr7I1C4uArxUUvn4NnWiHoi7LQ97u8cA8ibY0i3O0neLnZDarWHcDpMJfdy3JjX2ADTCVH74XNaaql6a6IweAYLkDKJFATXZZtndZGi8drRHOcNbtNv4ANdBeVgYTsKOJlmyghuicgEqyDz0EEtC4acCbLz3v8/p.jpeg?fv_content=true&size_mode=5" />
                 </div>

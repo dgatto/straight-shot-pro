@@ -16,7 +16,7 @@ export class Navigation extends React.Component<Props> {
   render() {
     return (
       <div className="navigation-bar">
-        <Navbar id="nav" bg="light" expand="lg">
+        <Navbar id="nav" expand="lg">
           <Navbar.Collapse id="nav-dropdown">
             <Nav>
               <NavDropdown src="../../assets/logo.svg" title={<NavBarImage/>} id="basic-nav-dropdown">
