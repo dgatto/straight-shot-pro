@@ -1,10 +1,21 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+
+import { Content } from "../../assets/ParagraphContent";
 
 export class About extends Component {
   render() {
     return (
-      <div className='about'>
-        About!
+      <div className="about">
+        <Container>
+          <Row>
+            <Col>{Content.AboutPersonalDesc}</Col>
+          </Row>
+          <Row>
+            <Col>{Content.AboutExperienceDesc}</Col>
+          </Row>
+
+        </Container>
       </div>
     );
   }

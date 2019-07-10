@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavDropdown, Image } from 'react-bootstrap';
 
-interface PassedProps {}
+interface PassedProps {
+  url: string;
+}
 
 type Props = PassedProps;
 
-export class Navigation extends Component {
+export class Navigation extends React.Component<Props> {
 
   constructor(props: Props) {
     super(props);
@@ -17,15 +19,15 @@ export class Navigation extends Component {
       <Navbar.Collapse id="nav-dropdown">
         <Nav>
           <NavDropdown src="../../assets/logo.svg" title={<NavBarImage/>} id="basic-nav-dropdown">
-            <NavDropdown.Item href="/home">Home</NavDropdown.Item>
+            <NavDropdown.Item href={this.props.url + "/home"}>Home</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/gallery">Gallery</NavDropdown.Item>
+            <NavDropdown.Item href={this.props.url + "/gallery"}>Gallery</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/about">About</NavDropdown.Item>
+            <NavDropdown.Item href={this.props.url + "/about"}>About</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/testimonials">Testimonials</NavDropdown.Item>
+            <NavDropdown.Item href={this.props.url + "/testimonials"}>Testimonials</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/contact">Book Me</NavDropdown.Item>
+            <NavDropdown.Item href={this.props.url + "/contact"}>Book Me</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>

@@ -1,5 +1,6 @@
-import React, { RefObject } from 'react';
+import React from 'react';
 import ControlledCarousel from '../common/ControlledCarousel';
+import { Button, Row, Container, Col } from 'react-bootstrap';
 
 interface PassedProps {
   height: number,
@@ -24,9 +25,28 @@ export class BottomLevel extends React.Component<Props> {
         }
         return (
             <div id="section-two" style={divStyle} className='home section-two'>
-                <div id="carousel">
-                    <ControlledCarousel/>
-                </div>
+                <Container>
+                    <Row>
+                        <Col>
+                            <div id="carousel">
+                                <ControlledCarousel/>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Button variant="outline-danger">Learn more</Button>
+                        </Col>
+                        <Col>
+                            <p>|</p>
+                        </Col>
+                        <Col>
+                            <Button variant="outline-danger">Schedule a Shoot</Button>
+                        </Col>
+                    </Row>
+                </Container>
+                
+                
             </div>
         );
     }
