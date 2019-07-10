@@ -21,7 +21,6 @@ export class Main extends React.Component<Props> {
               exact path='/home'
               render={(props) => <Home {...props} height={this.props.height} width={this.props.width} />}
             />
-            
             <Route exact path='/about' component={About}></Route>
             <Route exact path='/contact' component={Contact}></Route>
             <Route exact path='/gallery' component={Gallery}></Route>
