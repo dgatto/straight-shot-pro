@@ -1,5 +1,6 @@
 html, body {
     background-color: solid #F5F5F5;
+    overflow-x: hidden;
 }
 
 #nav {
@@ -25,7 +26,7 @@ html, body {
 
 .section-two {
     background-color: darkgray;
-    height: 100%;
+    height: 100vh;
     display: flex;
 }
 
@@ -38,4 +39,13 @@ html, body {
 
 #carousel .carousel-slider {
     height: 100%;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.navigation-bar {
+    position: absolute;
+    z-index: 2000;
 }

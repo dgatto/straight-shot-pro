@@ -1,11 +1,9 @@
-import React from 'react';
-import { TopLevel } from '../home/TopLevel';
-import { BottomLevel } from '../home/BottomLevel';
+import React from "react";
 
-interface HomeProps {
-  width: number;
-  height: number;
-};
+import { BottomLevel } from "../home/BottomLevel";
+import { TopLevel } from "../home/TopLevel";
+
+interface HomeProps {};
 
 type Props = HomeProps;
 
@@ -17,8 +15,8 @@ export class Home extends React.Component<Props> {
   render() {
     return (
       <div>
-        <TopLevel height={this.props.height} width={this.props.width}/>
-        <BottomLevel height={this.props.height} width={this.props.width}/>
+        <TopLevel />
+        <BottomLevel />
       </div>
     );
   }

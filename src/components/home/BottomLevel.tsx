@@ -1,11 +1,9 @@
-import React from 'react';
-import ControlledCarousel from '../common/ControlledCarousel';
-import { Button, Row, Container, Col } from 'react-bootstrap';
+import React from "react";
+import { Button, Col, Container, Row } from "react-bootstrap";
 
-interface PassedProps {
-  height: number,
-  width: number,
-}
+import ControlledCarousel from "../common/ControlledCarousel";
+
+interface PassedProps {}
 
 type Props = PassedProps;
 
@@ -14,18 +12,14 @@ export class BottomLevel extends React.Component<Props> {
         super(props);
     }
 
-    componentWillUpdate(nextProps: Props) {    
+    componentWillUpdate(nextProps: Props) {
         return this.props !== nextProps;
     }
 
     render() {
-        const divStyle={
-            height: this.props.height,
-            width: this.props.width,
-        }
         return (
-            <div id="section-two" style={divStyle} className='home section-two'>
-                <Container>
+            <div id="section-two" className='home section-two'>
+                <Container fluid={true}>
                     <Row>
                         <Col>
                             <div id="carousel">
@@ -45,8 +39,8 @@ export class BottomLevel extends React.Component<Props> {
                         </Col>
                     </Row>
                 </Container>
-                
-                
+
+
             </div>
         );
     }

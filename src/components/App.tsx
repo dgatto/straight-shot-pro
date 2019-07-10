@@ -1,8 +1,10 @@
-import React from 'react';
-import './App.css';
-import { Navigation } from "../components/navigation/Navigation";
+import "./App.css";
+
+import React from "react";
+import { BrowserRouter, Redirect } from "react-router-dom";
+
 import { Main } from "../components/main/Main";
-import { BrowserRouter, Redirect } from 'react-router-dom';
+import { Navigation } from "../components/navigation/Navigation";
 
 export class App extends React.Component {
   state = {
@@ -10,10 +12,10 @@ export class App extends React.Component {
     height: 0,
     url: "",
   }
-  
+
   updateDimensions = () => {
     this.setState({
-      width: window.innerWidth, 
+      width: window.innerWidth,
       height: window.innerHeight,
     });
   }
@@ -33,7 +35,7 @@ export class App extends React.Component {
       <div className='app'>
         <BrowserRouter>
           <Navigation url={this.state.url}/>
-          <Main width={this.state.width} height={this.state.height}/>
+          <Main/>
           <Redirect to='/home'/>
         </BrowserRouter>
       </div>
